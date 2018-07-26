@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>PatrickSeleniumTest.com</groupId>
+	<artifactId>simpleLoginTest</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.13.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+	</dependencies>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<javamail.version>1.6.1</javamail.version>
+		<jsoup.version>1.11.2</jsoup.version>
+		<junit.version>4.12</junit.version>
+		<junit.vintage.version>${junit.version}.3</junit.vintage.version>
+		<junit.jupiter.version>5.0.3</junit.jupiter.version>
+		<junit.platform.version>1.0.2</junit.platform.version>
+		<jackson.2.version>2.9.0</jackson.2.version>
+		<apache.httpcomponents.version>4.5.3</apache.httpcomponents.version>
+		<maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
+		<maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
+		<org.seleniumhq.selenium.version>3.12.0</org.seleniumhq.selenium.version>
+		<environment>test</environment>
+		<environment>local</environment>
+	</properties>
+
+
+</project>
